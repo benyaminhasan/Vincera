@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/lblTrainedToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_trained_today"
+        app:layout_constraintTop_toBottomOf="@id/tvGreeting"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/tvTrainedToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/lblTrainedToday"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Ja" />
+
+    <TextView
+        android:id="@+id/lblWorkoutCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_workout_count"
+        app:layout_constraintTop_toBottomOf="@id/lblTrainedToday"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvWorkoutCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/lblWorkoutCount"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="12" />
+
+    <TextView
+        android:id="@+id/lblLastTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_last_training"
+        app:layout_constraintTop_toBottomOf="@id/lblWorkoutCount"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvLastTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/lblLastTraining"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="24.07.2026" />
+
+    <TextView
+        android:id="@+id/lblStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_streak"
+        app:layout_constraintTop_toBottomOf="@id/lblLastTraining"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/lblStreak"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="3" />
+
+    <Button
+        android:id="@+id/btnTrainingStarten"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_training_starten"
+        app:layout_constraintTop_toBottomOf="@id/lblStreak"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:id="@+id/btnTrainingsplaene"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_trainingsplaene"
+        app:layout_constraintTop_toBottomOf="@id/btnTrainingStarten"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

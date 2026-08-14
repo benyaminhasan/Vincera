@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445861211050",
+    "project_id": "vincera-23435",
+    "storage_bucket": "vincera-23435.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445861211050:android:0fee751be0926ca2fdd9d3",
+        "android_client_info": {
+          "package_name": "com.example.vincera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH5RnczbaggUFj9CNd2uX3XyzSYBOoZfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
