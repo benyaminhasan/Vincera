@@ -1,2 +1,0 @@
-Vincera
-Name: Benyamin Hasan
