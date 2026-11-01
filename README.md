@@ -18,11 +18,6 @@ A native Android workout tracking app built with **Kotlin** and **Firebase**.
 - **Training plans** — create and manage personalised workout plans
 - **Progress tracking** — view training history and performance over time
 - **Cloud sync** — all data stored in Cloud Firestore, accessible across devices
-## Screenshots
- 
-| Dashboard | Training Plans | Workout | History |
-|---|---|---|---|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Plans](docs/screenshots/plans.png) | ![Workout](docs/screenshots/workout.png) | ![History](docs/screenshots/history.png) |
  
 ## Project Structure
  
