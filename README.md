@@ -42,4 +42,5 @@ Vincera/
  
 ## Context
  
-Developed as a student project at Hochschule für Wirtschaft und Recht Berlin (WiSe 2025/26).
+Developed as a student project at Hochschule für Wirtschaft und Recht Berlin (SoSe 2026
+).
